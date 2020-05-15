@@ -117,7 +117,3 @@
         </div><!-- col-md-6 Finish -->
     </div><!-- container Finish -->
 </div><!-- #copyright Finish -->
-
-
-<!-- <script src="js/jquery-3.5.0.js"></script>
-<script src="js/bootstrap.min.js"></script> -->
