@@ -29,6 +29,8 @@
     <div> <!--the separate div will keep the footer and its properties separate-->
         <?php include("modules/footer.php"); ?>
     </div>
+
+    <div></div>
         
 
     
