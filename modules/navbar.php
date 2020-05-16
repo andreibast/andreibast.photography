@@ -24,13 +24,15 @@
 
 <!--i would like the filters to be here-->
 <div class="row">
-  <div class="col">
+  
     <div class="collapse" id="multiCollapseExample1">
-      <div class="card card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-      </div>
+      
+     
+      <?php include("modules/sidebar.php"); ?> 
     </div>
-  </div>
+
+    
+  
 </div>
 
 

@@ -4,6 +4,8 @@
 body{
     margin: auto 0;
     font-family: Arial;
+    
+    /* background-color: #f8f9fa; */
 }
 
 /*************************************************************************************************************************
@@ -195,6 +197,7 @@ FOR PAGINATION
 #footer .social a:hover{
     color: #dedede;
     background: #777777;
+    
 }
 
 
@@ -204,7 +207,7 @@ FOR PAGINATION
 #copyright{
     background: #333333;
     color: #cccccc;
-    padding: 20px 0;
+    padding: 0 20px;
     font-size: 12px;
 }
 
