@@ -1,123 +1,157 @@
-<div id="footer"><!-- #footer Begin -->
-    <div class="container"><!-- container Begin -->
-        <div class="row"><!-- row Begin -->
-            <div class="col-sm-6 col-md-3"><!-- col-sm-6 col-md-3 Begin -->
-               
-               <h4>Pages</h4>
-                
-                <ul><!-- ul Begin -->
-                    <li><a href="contact.php">Contact Me</a></li>
-                    <li><a href="shop.php">eShop</a></li>
-                    <li><a href="customer/my_account.php">My Account</a></li>
-                </ul><!-- ul Finish -->
-                
-                <hr>
-                
-                <h4>User Section</h4>
-                
-                <ul><!-- ul Begin -->
-            
-                    
-                    <li><a href="customer_register.php">Register</a></li>
-                    <li><a href="terms.php">Terms & Conditions</a></li>
-                </ul><!-- ul Finish -->
-                
-                <hr class="hidden-md hidden-lg hidden-sm">
-                
-            </div><!-- col-sm-6 col-md-3 Finish -->
-            
-            <div class="com-sm-6 col-md-3"><!-- col-sm-6 col-md-3 Begin -->
-                
-                <h4>Top Pictures Categories</h4>
-                
-                <ul><!-- ul Begin -->
-                    <a href="">Blabla</a>
-                   
-                
-                </ul><!-- ul Finish -->
-                
-                <hr class="hidden-md hidden-lg">
-                
-            </div><!-- col-sm-6 col-md-3 Finish -->
-            
-            <div class="col-sm-6 col-md-3"><!-- col-sm-6 col-md-3 Begin -->
-                
-                <h4>Find Us</h4>
-                
-                <p><!-- p Start -->
-                    
-                    <strong>Andrei Bast Photography Inc.</strong>
-                    <br/>Address1
-                    <br/>Address2
-                    <br/>0818-0683-3157
-                    <br/>Example@gmail.com
-                    <br/><strong>Andrei</strong>
-                    
-                </p><!-- p Finish -->
-                
-                <a href="contact.php">Check Our Contact Page</a>
-                
-                <hr class="hidden-md hidden-lg">
-                
-            </div><!-- col-sm-6 col-md-3 Finish -->
-            
-            <div class="col-sm-6 col-md-3">
-                
-                <h4>Get The News</h4>
-                
-                <p class="text-muted">
-                    Dont miss my latest updated pictures.
-                </p>
-                
-                <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=M-devMedia', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" method="post"><!-- form begin -->
-                    <div class="input-group"><!-- input-group begin -->
-                        
-                        <input type="text" class="form-control" name="email">
-                        
-                        <input type="hidden" value="M-devMedia" name="uri"/><input type="hidden" name="loc" value="en_US"/>
-                        
-                        <span class="input-group-btn"><!-- input-group-btn begin -->
-                            
-                            <input type="submit" value="subscribe" class="btn btn-primary">
-                            
-                        </span><!-- input-group-btn Finish -->
-                        
-                    </div><!-- input-group Finish -->
-                </form><!-- form Finish -->
-                
-                <hr>
-                
-                <h4>Keep In Touch</h4>
-                
-                <p class="social">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-google-plus"></a>
-                    <a href="#" class="fa fa-envelope"></a>
-                </p>
-                
-            </div>
-        </div><!-- row Finish -->
-    </div><!-- container Finish -->
-</div><!-- #footer Finish -->
 
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4" style="background-color: #3e4551;" >
 
-<div id="copyright"><!-- #copyright Begin -->
-    <div class="container"><!-- container Begin -->
-        <div class="col-md-6"><!-- col-md-6 Begin -->
-            
-            <p class="pull-left">&copy; 2020 All Rights Reserved</p>
-            
-        </div><!-- col-md-6 Finish -->
-        <div class="col-md-6"><!-- col-md-6 Begin -->
-            
-            <p class="pull-right">Theme by: <a href="#">Andrei</a></p>
-            
-        </div><!-- col-md-6 Finish -->
-    </div><!-- container Finish -->
-</div><!-- #copyright Finish -->
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left" style="background-color: #3e4551;">
 
+    <!-- Grid row -->
+    <div class="row">
 
-<!-- <script src="js/jquery-3.5.0.js"></script>
-<script src="js/bootstrap.min.js"></script> -->
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #c9cacd;">Footer Content</h5>
+        <p style="color: #c9cacd;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatem ad similique sapiente enim ipsum, sint eveniet tenetur, cupiditate dicta explicabo assumenda tempora et labore? Aspernatur dignissimos animi cum officia.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #c9cacd;">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!"style="color: #c9cacd;">Link 1</a>
+          </li>
+          <li>
+            <a href="#!" style="color: #c9cacd;">Link 2</a>
+          </li>
+          <li>
+            <a href="#!" style="color: #c9cacd;">Link 3</a>
+          </li>
+          <li>
+            <a href="#!" style="color: #c9cacd;">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #c9cacd;">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" style="color: #c9cacd;">Link 1</a>
+          </li>
+          <li>
+            <a href="#!" style="color: #c9cacd;">Link 2</a>
+          </li>
+          <li>
+            <a href="#!" style="color: #c9cacd;">Link 3</a>
+          </li>
+          <li>
+            <a href="#!" style="color: #c9cacd;">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #c9cacd;">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" style="color: #c9cacd;">Link 1</a>
+          </li>
+          <li>
+            <a href="#!" style="color: #c9cacd;">Link 2</a>
+          </li>
+          <li>
+            <a href="#!" style="color: #c9cacd;">Link 3</a>
+          </li>
+          <li>
+            <a href="#!" style="color: #c9cacd;">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <hr>
+
+  <!-- Call to action -->
+  <ul class="list-unstyled list-inline text-center py-2" style="background-color: #3e4551;">
+    <li class="list-inline-item">
+      <h5 class="mb-1" style="color: #c9cacd;">Register for free</h5>
+    </li>
+    <li class="list-inline-item">
+      <a href="#!" class="btn btn-danger btn-rounded" style="padding: 10px 30px; border-radius: 30px;">SIGN UP!</a>
+    </li>
+  </ul>
+  <!-- Call to action -->
+
+  <hr>
+
+  <!-- Social buttons -->
+  <ul class="list-unstyled list-inline text-center" style="background-color: #3e4551;">
+    <li class="list-inline-item">
+      <a class="btn-floating btn-fb mx-1">
+        <i class="fab fa-facebook-f"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-tw mx-1">
+        <i class="fab fa-twitter"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-gplus mx-1">
+        <i class="fab fa-google-plus-g"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-li mx-1">
+        <i class="fab fa-linkedin-in"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-dribbble mx-1">
+        <i class="fab fa-dribbble"> </i>
+      </a>
+    </li>
+  </ul>
+  <!-- Social buttons -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3"  style="background-color: #323741; color:  #777a81;"> © 2020 Copyright: 
+    <a href="#" style="color: #c9cacd;"> Andrei Bast</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->

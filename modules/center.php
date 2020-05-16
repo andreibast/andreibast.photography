@@ -1,23 +1,68 @@
 
-<div class="container-main-center">
+<?php include("modules/navbar.php");?>
 
 
-    <div class="zone green">🦊
+    <div class=" red container-main-center2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit totam eveniet recusandae animi beatae facilis ea. Minus, obcaecati, itaque blanditiis deserunt aspernatur veniam quaerat modi nulla eveniet dolore ipsam quas.</p>
+
+
+      
+
     </div>
+    
+    <!-------------------- 
+    1.SIDEBAR SECTION
+    ---------------------->
+    <!-- <div class="container-main-center">
+       
+    </div> -->
 
-  <div class="zone red">
-    <img class ="picture-center" src="modules/pictures/center/20190714_190747.jpg" alt="">
-  </div>
+    
+          <!-------------------- 
+        3.PAGINATION SECTION
+        ---------------------->
+        <div class="container">
+            <div class="pagination-orientation">
+                <div class="row pagination-orientation">
+                    <nav aria-label="...">
+                        <ul class="pagination ">
 
-  <div class="zone blue">
-    <img class ="picture-center" src="modules/pictures/center/20190714_190749.jpg" alt="">
-  </div>
+                            <select class="form-control">
+                                <option class="disabled">no.pic</option>
+                                <option>12</option>
+                                <option>24</option>
+                                <option>48</option>
+                                <option>96</option>
+                            </select>
 
-  <div class="zone yellow">
-    <img class ="picture-center" src="modules/pictures/center/20190714_190758.jpg" alt="">
-  </div>
+                            <li class="page-item disabled">
+                                <span class="page-link">Previous</span>
+                            </li>
+                            
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            
+                            <li class="page-item active" aria-current="page">
+                            <span class="page-link">
+                                3
+                                <span class="sr-only">(current)</span>
+                            </span>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
 
-  <div class="zone purple">
-    <img class ="picture-center" src="modules/pictures/center/20190714_191701.jpg" alt="">
-  </div>
-  </div>
+
+   
+
+
+    
+
