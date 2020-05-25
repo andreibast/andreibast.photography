@@ -1,6 +1,9 @@
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark ">
   <a class="navbar-brand" href="#">Home</a>
+  
+  
+  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -101,11 +104,11 @@
         </div>
       </li>
 
+      <li class="topnav nav-item">
+      
+      <a class="nav-link" href="#login">eShop</a>
+      </li>
+
     </ul>
   </div>
-
-  <div class="topnav-right">
-        <a class="right-a" href="#eshop">e-Shop</a>
-        <a class="right-a" href="#login">Login</a>
-      </div>
 </nav>

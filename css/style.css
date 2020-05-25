@@ -8,6 +8,36 @@ body{
     /* background-color: #f8f9fa; */
 }
 
+/*******************
+MEDIA QUERIES FOR LAYOUT
+**********************/
+
+@media screen and (max-width: 1201px) {
+    .element-visible-xl {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .element-visible-lg-xl {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .element-visible-md-lg-xl {
+        display:none;
+    }
+}
+
+
+.hide{ 
+    display: none;
+}
+
+
+
+
 /*************************************************************************************************************************
 ******************************************************2.TOP SECTION******************************************************
 **************************************************************************************************************************/
@@ -55,6 +85,7 @@ FOR TOP-NAV
     /* border:1px solid #bbb; */
     transition: all 0.3s linear;
     /* max-height: 300px; */
+    
 }
 
 .zone:hover {
@@ -63,6 +94,11 @@ FOR TOP-NAV
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
+
+
+/****************************
+COLORS TESTING FOR LAYOUT
+****************************/
 
 .green{
     background: #56B870; /* Old browsers */
@@ -84,6 +120,60 @@ FOR TOP-NAV
     background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
 }
 
+.yellow{
+    background: #F3AAAA; /* Old browsers */
+    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+}
+
+.blue{
+    background: #7abcff; /* Old browsers */
+    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+}
+
+.purple {
+    background: #A88BEB; /* Old browsers */
+    background: -moz-linear-gradient(top, #A88BEB 0%, #F1A7F1 44%, #F8CEEC 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A88BEB), color-stop(44%,#F1A7F1), color-stop(100%,#F8CEEC)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #A88BEB 0%,#F1A7F1 44%,#F8CEEC 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #A88BEB 0%,#F1A7F1 44%,#F8CEEC 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #A88BEB 0%,#F1A7F1 44%,#F8CEEC 100%); /* IE10+ */
+    background: linear-gradient(top, #A88BEB 0%,#F1A7F1 44%,#F8CEEC 100%); /* W3C */
+}
+
+ .brown {
+    background: #f6e6b4; /* Old browsers */
+    background: -moz-linear-gradient(top, #f6e6b4 0%, #ed9017 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6e6b4), color-stop(100%,#ed9017)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f6e6b4 0%,#ed9017 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f6e6b4 0%,#ed9017 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f6e6b4 0%,#ed9017 100%); /* IE10+ */
+    background: linear-gradient(top, #f6e6b4 0%,#ed9017 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
+}
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
 /****************************
 FOR RED CONTENT(where pictures are found)
 *****************************/
@@ -91,7 +181,7 @@ FOR RED CONTENT(where pictures are found)
 .container-main-center{
     display: grid;
     grid-gap: 0px;
-    grid-template-columns: 202px auto;
+    grid-template-columns: 302px auto;
     grid-template-rows: auto;
 }
 

@@ -16,14 +16,63 @@
 </head>
 <body>
 
-    <div>
-        <img id="banner" class="img-responsive" src="modules/pictures/topsitebanner.jpg">
+    <div class="jumbotron-fluid">
+        <img id="banner" class="" src="modules/pictures/topsitebanner.jpg">
     </div>
+
     
     <div>
-        <?php include("modules/topbar.php"); ?> 
+        <div class="element-visible-md-lg-xl">
+            <?php include("modules/topbar.php"); ?> 
+        </div>
+       
         <?php include("modules/carousel.php"); ?> 
-        <?php include("modules/center.php");  ?>
+
+        <div class="zone red">
+        <div class="container-fluid">
+
+
+        
+        <div class="row">
+            <div class="col-md-2.5">
+            <?php include("modules/center-page-elements/sidebar-filters.php"); ?></div>
+            </div>
+            
+            <div class="zone green col-md">
+                <div> 
+                    <?php include("modules/center-page-elements/sort-navigation-large.php"); ?>
+                </div>
+
+
+            <div class="row">
+                <div class="zone blue col-md">
+                    <div class="breadcrumb" style="font-size: 12px; height: 80px; margin-left:10px; margin-right:10px; margin-top:20px; " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem expedita labore animi deserunt minima quo unde distinctio eaque repellat amet ex dignissimos, illum facere nesciunt? Distinctio aut facilis magnam.</div>
+                </div>
+            </div>
+            
+            
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="zone purple col-md-12" style="height: 60px;">
+                 
+            
+            </div>
+        </div>
+
+
+
+
+
+
+
+        </div>
+        </div>
+
+    
+  
 
     </div>
     <div> <!--the separate div will keep the footer and its properties separate-->
@@ -32,6 +81,18 @@
 
     
         
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+
+
+            
+            </div>
+        </div>
+    </div>
+
 
     
 

@@ -1,7 +1,7 @@
 <!-------------------- 
     1.FILTERS 
     ---------------------->
-    <div class="zone green">
+    <div class="zone green" style="width:204px; margin-top:20px; margin-left:20px; margin-bottom:20px;">
 
         <!-- 
         1.1.SEARCH SECTION 

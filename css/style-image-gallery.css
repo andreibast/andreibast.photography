@@ -1,0 +1,97 @@
+/************************************************************************
+CARDS SECTION
+************************************************************************/
+.pictures-container-grid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+}
+
+.hide{
+    transform: scale(0); 
+    transition: all 0.4s ease-in-out;
+}
+
+.category_item{
+    float:left;
+    width: 15%;
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+}
+
+.category_item:hover{
+    background-color: black;
+    color: white;
+}
+
+.overlay {
+  position:absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.3); 
+  color: #f1f1f1;
+  width: 100%;
+  transition: 1s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 7% 3% 3% 3%;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#mydiv:hover .overlay {
+  opacity: 1;
+}
+
+.zone {
+    cursor:pointer;
+    text-align: center;
+    border-radius: 15px;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {/*card hover effect*/
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    transform: scale(1.03);
+}
+
+.hashtag-block{
+    display:inline-block; 
+    
+}
+
+.hashtag-left{
+    font-size: 12px;
+    float: left;
+    margin-left: 10px;
+}
+
+.hashtag-right{
+    font-size: 12px;
+    float: right;
+    margin-right: 10px;
+}
+
+
+.card-radius{
+    border-radius: 10px;
+}
+
+.card-img-radius{
+    border-radius: 9px;
+}
+
+.thanks-message{
+    text-align: right; 
+    font-size: 12px;
+}
+    
