@@ -1,5 +1,5 @@
-<div class="zone col-md" style="margin: 10px 0; border:2px solid black; background-color: white;">
-    <div class="row">
+<div class="zone col-md" style="margin: 10px 0; border:1px solid black; background-color: white;">
+    <div class="row" style="margin:10px;">
         
         <label for="exampleFormControlSelect1" class="col-sm-2 col-form-label text-left font-weight-bold" style="font-size: 14px;">Sort:</label>
         <select class="form-control col-sm-6 col-md-4" id="exampleFormControlSelect1" maxlength="6">

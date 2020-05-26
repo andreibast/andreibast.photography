@@ -23,88 +23,57 @@
 </head>
 <body>
 
+
+    <!-------------------------------------Top Section------------------------------------------------->
     <div class="jumbotron-fluid">
         <img id="banner" class="" src="modules/pictures/topsitebanner.jpg">
     </div>
 
-    
     <div>
-        <div class="element-visible-md-lg-xl">
+        <div>
+            <?php include("modules/carousel.php"); ?>
+        </div>
+        <div class="element-visible-lg-xl">
             <?php include("modules/topbar.php"); ?> 
         </div>
-       
-        <?php include("modules/carousel.php"); ?> 
-
-        <div class="zone red">
-        <div class="container-fluid">
-
-
-        
-        <div class="row">
-            <div class="col-md-2.5">
-                <?php include("modules/center-page-elements/sidebar-filters.php"); ?></div>
-            </div>
-            
-            <div class="zone green col-md">
-                <div> 
-                    <?php include("modules/center-page-elements/sort-navigation-large.php"); ?>
-                </div>
-
-
-            <div class="row">
-                <div class="zone blue col-md">
-                    <!-- <div class="breadcrumb" style="font-size: 12px; height: 80px; margin-left:10px; margin-right:10px; margin-top:20px; " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorem expedita labore animi deserunt minima quo unde distinctio eaque repellat amet ex dignissimos, illum facere nesciunt? Distinctio aut facilis magnam.</div> -->
-                    <?php include("modules/center-page-elements/image-gallery.php"); ?>
-
-
-
-
-                </div>
-            </div>
-            
-            
-
-            </div>
+        <div class="element-visible-from-sm element-visible-till-md">
+            <?php include("modules/top-bar-mini/top-bar-mini.php"); ?> 
         </div>
 
-        <div class="row">
-            <div class="zone purple col-md-12">
-                <div>
-                    
-                </div>
-                 
-            
-            </div>
+        <div class="element-visible-xs">
+            <?php include("modules/top-bar-mini/top-bar-xs.php"); ?> 
         </div>
-
-
-        </div>
-        </div>
-
-    
-  
-
+         
     </div>
+    <!-------------------------------------Center Section------------------------------------------------->
+    <div>
+        <div class="zone red">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2.5 element-visible-lg-xl">
+                        <?php include("modules/center-page-elements/sidebar-filters.php"); ?></div>
+                    </div>
+                    
+                        <div class="zone green col-md">
+                            <div class="element-visible-lg-xl"> 
+                                <?php include("modules/center-page-elements/sort-navigation-large.php"); ?>
+                            </div>
+
+                            <div class="row">
+                                <div class="zone blue col-md" style="margin: 15px 15px  15px  15px;">
+                                    <?php include("modules/center-page-elements/image-gallery.php"); ?>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-------------------------------------Footer Section------------------------------------------------->
     <div> <!--the separate div will keep the footer and its properties separate-->
         <?php include("modules/footer.php"); ?>
-    </div>
-
-    
-        
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md">
-
-
-            
-            </div>
-        </div>
-    </div>
-
-
-    
+    </div>  
     
 </body>
 </html>
