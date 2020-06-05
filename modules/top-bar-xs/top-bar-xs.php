@@ -108,3 +108,7 @@
     </ul>
   </div>
 </nav>
+
+<div class="jumbotron-fluid" >
+    <img id="banner" class="" src="modules/pictures/topsitebanner.jpg">
+</div>

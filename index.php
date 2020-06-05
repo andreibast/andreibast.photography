@@ -19,13 +19,14 @@
         <!--JQUERY       --><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <!--POPPER JS    --><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-  Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <!--BOOTSTRAP JS  --><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
 
 </head>
 <body>
 
 
     <!-------------------------------------Top Section------------------------------------------------->
-    <div class="jumbotron-fluid">
+    <div class="jumbotron-fluid element-visible-lg-xl">
         <img id="banner" class="" src="modules/pictures/topsitebanner.jpg">
     </div>
 
@@ -37,14 +38,19 @@
             <?php include("modules/topbar.php"); ?> 
         </div>
         <div class="element-visible-from-sm element-visible-till-md">
-            <?php include("modules/top-bar-mini/top-bar-mini.php"); ?> 
+            <?php include("modules/top-bar-mini/top-bar-mini.php"); ?>
+            
         </div>
 
         <div class="element-visible-xs">
-            <?php include("modules/top-bar-mini/top-bar-xs.php"); ?> 
+            <?php include("modules/top-bar-xs/top-bar-xs.php"); ?> 
         </div>
          
     </div>
+
+
+    
+
     <!-------------------------------------Center Section------------------------------------------------->
     <div>
         <div class="zone red">
@@ -74,6 +80,11 @@
     <div> <!--the separate div will keep the footer and its properties separate-->
         <?php include("modules/footer.php"); ?>
     </div>  
+
     
+    
+
+    
+
 </body>
 </html>
