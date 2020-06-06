@@ -1,10 +1,24 @@
+<div>
+    <?php include("modules/top-bar-xs/filters-xs.php"); ?>
+</div>
+
+<div>
+  <?php include("modules/top-bar-xs/sort-xs.php"); ?>
+</div>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
-  <a class="navbar-brand btn btn-secondary" href="#" style="margin-left: 40px; padding-right:20px;"><i class="fa fa-filter"></i> Filters</a>
-  <a class="navbar-brand btn btn-secondary" href="#" style="margin-left: 20px; padding-right:20px;"><i class="fa fa-sort"></i> Sort</a>
+ 
+  <div class="col-xs-1"></div>
+  <button class="navbar-toggler col-xs-2" type="button" data-toggle="modal" data-target="#filter-xs">
+      <i class="fa fa-filter" style="font-size:20px"></i> Filter Pics
+  </button>
+
+  <div class="col-xs-1"></div>
+  <button class="navbar-toggler col-xs-2" type="button" data-toggle="modal" data-target="#sort-xs">
+      <i class="fa fa-sort" style="font-size:20px"></i> Sort Pics
+  </button>
   
-  
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler w-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -100,6 +114,8 @@
           <a class="dropdown-item" href="#">Cluj-Napoca</a>
           <a class="dropdown-item" href="#">Sighisoara</a>
           <a class="dropdown-item" href="#">Sibiu</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Others</a>
         </div>
       </li>
 

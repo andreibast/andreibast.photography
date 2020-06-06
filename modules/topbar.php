@@ -100,12 +100,14 @@
           <a class="dropdown-item" href="#">Cluj-Napoca</a>
           <a class="dropdown-item" href="#">Sighisoara</a>
           <a class="dropdown-item" href="#">Sibiu</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Others</a>
         </div>
       </li>
 
       <li class="topnav nav-item">
       
-      <a class="nav-link" href="#login">eShop</a>
+      <!-- <a class="nav-link" href="#login">eShop</a> -->
       </li>
 
     </ul>

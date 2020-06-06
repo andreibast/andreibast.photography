@@ -1,29 +1,8 @@
-<!-------------------- 
+    <!-------------------- 
     1.FILTERS 
     ---------------------->
-    <div class="zone green" style="width:204px; margin-top:20px; margin-left:20px; margin-bottom:20px;">
+    <div class="zone green mt-3 ml-3 mb-3" style="width:204px;">
 
-        <!-- 
-        1.1.SEARCH SECTION 
-        -->
-        <div>
-            <aside class="col-md-3">
-                <div class="row">
-                    <output>
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="input-group">
-                                    <input type="text" placeholder="Keyword" class="form-control" name="">
-                                    <span class="input-group-append"> <button class="btn btn-primary"> <i class="fa fa-search"></i></button></span>
-                                </div>
-                            </div>
-                        </div> <!-- card.// -->
-                    </output>
-                </div>
-            </aside> 
-        </div>
-
-      
         <!-- 1.2.TAGS SECTION -->
         <div>
             <aside class="col-md-3">
@@ -67,8 +46,7 @@
             </aside> 
         </div>
     
-
-    <!-- 1.3.RATINGS SECTION -->
+        <!-- 1.3.RATINGS SECTION -->
         <div>
             <aside class="col-md-3">
                 <div class="row">

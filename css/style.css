@@ -94,8 +94,8 @@ FOR TOP-BAR-MINI
 **********************/
 @media (max-width: 992px) {
     .mobileMenu {
-      -webkit-transform: translateX(-100%);
-              transform: translateX(-100%);
+      -webkit-transform: translateX(-102%);
+              transform: translateX(-102%);
       position: fixed;
       top: 0px;
       bottom: 0;
@@ -289,6 +289,14 @@ FOR CARDS INSIDE RED CONTENT
 *****************************/
 .card-body{
     width: 200px;
+}
+
+.card-modals{
+    width: 92vw;
+}
+
+.card-modals-mini{
+    width: 62vw;
 }
 
 

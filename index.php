@@ -61,7 +61,7 @@
                     </div>
                     
                         <div class="zone green col-md">
-                            <div class="element-visible-lg-xl"> 
+                            <div class="element-visible-lg-xl mt-3"> 
                                 <?php include("modules/center-page-elements/sort-navigation-large.php"); ?>
                             </div>
 
