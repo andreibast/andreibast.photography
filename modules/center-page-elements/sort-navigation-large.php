@@ -1,7 +1,7 @@
-<div class="zone col-md p-1" style="margin: 10px 0; background-color: white;">
+<div class="zone col-md p-1" style="margin: 10px 0; background: #343a40;">
     <div class="row" style="margin:10px;">
         
-        <label for="exampleFormControlSelect1" class="col-sm-2 col-form-label text-left font-weight-bold" style="font-size: 14px;">Sort:</label>
+        <label for="exampleFormControlSelect1" class="col-sm-2 col-form-label text-left font-weight-bold" style="font-size: 14px; color: white;">Sort:</label>
         <select class="form-control col-sm-6 col-md-4" id="exampleFormControlSelect1" maxlength="6">
             <option>(No Selection)</option>
             <option>Highest rated score</option>
@@ -10,7 +10,7 @@
         </select>
         
         
-        <label for="exampleFormControlSelect2" class="col-sm-2 col-form-label text-left font-weight-bold" style="font-size: 14px;">Images:</label>
+        <label for="exampleFormControlSelect2" class="col-sm-2 col-form-label text-left font-weight-bold" style="font-size: 14px; color: white;">Images:</label>
         <select class="form-control col-sm-6 col-md-4" id="exampleFormControlSelect2">
             <option>(No Selection)</option>
             <option>12</option>

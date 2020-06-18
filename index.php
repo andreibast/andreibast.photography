@@ -31,12 +31,16 @@
     </div>
 
     <div>
-        <div>
-            <?php include("modules/carousel.php"); ?>
-        </div>
+        
         <div class="element-visible-lg-xl">
             <?php include("modules/topbar.php"); ?> 
         </div>
+
+        <div>
+            <?php include("modules/carousel.php"); ?>
+        </div>
+
+
         <div class="element-visible-from-sm element-visible-till-md">
             <?php include("modules/top-bar-mini/top-bar-mini.php"); ?>
             
@@ -53,20 +57,20 @@
 
     <!-------------------------------------Center Section------------------------------------------------->
     <div>
-        <div class="zone red">
+        <div class="zone" style="background: black;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-2.5 element-visible-lg-xl">
                         <?php include("modules/center-page-elements/sidebar-filters.php"); ?></div>
                     </div>
                     
-                        <div class="zone green col-md">
+                        <div class="zone col-md" style="background: black;">
                             <div class="element-visible-lg-xl mt-3"> 
                                 <?php include("modules/center-page-elements/sort-navigation-large.php"); ?>
                             </div>
 
                             <div class="row">
-                                <div class="zone blue col-md" style="margin: 15px 15px  15px  15px;">
+                                <div class="zone blue col-md" style="margin: 15px 15px  15px  15px;  background: #343a40;">
                                     <?php include("modules/center-page-elements/image-gallery.php"); ?>
                                 </div>
                             </div>
