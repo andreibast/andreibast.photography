@@ -14,32 +14,27 @@
                                 <h5 class="card-title" style="color: white;">Tags</h5>
                                 <label class="custom-control custom-checkbox">
                                     <input type="checkbox" checked="" class="custom-control-input">
-                                    <div class="custom-control-label"><h6 style="color: white;">#architecture<b class="badge badge-pill badge-light float-right">120</b></h6></div>
+                                    <div class="custom-control-label"><h6 style="color: white;">#animals<b class="badge badge-pill badge-light float-right">27</b></h6></div>
                                 </label>
 
                                 <label class="custom-control custom-checkbox">
                                     <input type="checkbox" checked="" class="custom-control-input">
-                                    <div class="custom-control-label"><h6 style="color: white;">#b&w<b class="badge badge-pill badge-light float-right">15</b></h6></div>
+                                    <div class="custom-control-label"><h6 style="color: white;">#frenchCities<b class="badge badge-pill badge-light float-right">8</b></h6></div>
                                 </label>
 
                                 <label class="custom-control custom-checkbox">
                                     <input type="checkbox" checked="" class="custom-control-input">
-                                    <div class="custom-control-label"><h6 style="color: white;">#emotion<b class="badge badge-pill badge-light float-right">34</b></h6></div>
+                                    <div class="custom-control-label"><h6 style="color: white;">#grafitti<b class="badge badge-pill badge-light float-right">8</b></h6></div>
                                 </label>
 
                                 <label class="custom-control custom-checkbox">
                                     <input type="checkbox" checked="" class="custom-control-input">
-                                    <div class="custom-control-label"><h6 style="color: white;">#landscape<b class="badge badge-pill badge-light float-right">76</b></h6></div>
+                                    <div class="custom-control-label"><h6 style="color: white;">#macro<b class="badge badge-pill badge-light float-right">8</b></h6></div>
                                 </label>
 
                                 <label class="custom-control custom-checkbox">
                                     <input type="checkbox" checked="" class="custom-control-input">
-                                    <div class="custom-control-label"><h6 style="color: white;">#nature<b class="badge badge-pill badge-light float-right">89</b></h6></div>
-                                </label>
-
-                                <label class="custom-control custom-checkbox">
-                                    <input type="checkbox" checked="" class="custom-control-input">
-                                    <div class="custom-control-label"><h6 style="color: white;">#macro<b class="badge badge-pill badge-light float-right">89</b></h6></div>
+                                    <div class="custom-control-label"><h6 style="color: white;">#museums<b class="badge badge-pill badge-light float-right">8</b></h6></div>
                                 </label>
 
                             </div>

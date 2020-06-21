@@ -78,7 +78,8 @@ p.category_item{
 
 
 .hashtag-block{
-    display:inline-block; 
+    display:inline-block;
+    background: black; 
     
 }
 
